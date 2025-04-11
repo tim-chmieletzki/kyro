@@ -18,7 +18,7 @@ const config: Config = {
         foreground: "",
         textPrim: "#F5F5F5",
         textSec: "#D5D5D5",
-        accentPrim: "#F5F5F5",
+        accentPrim: "#f54900",
         accentSec: "",
         border: "",
       },
