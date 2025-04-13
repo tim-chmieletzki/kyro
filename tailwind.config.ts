@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      sm: "375px", // 375 x 635 M
+      sm: "375px", // 375 x 629 M
       md: "768px", // 768 x 956 T
       lg: "1200px", // 1200 x 900 D
     },
@@ -18,7 +18,7 @@ const config: Config = {
         foreground: "",
         textPrim: "#F5F5F5",
         textSec: "#D5D5D5",
-        accentPrim: "#F5F5F5",
+        accentPrim: "#f54900",
         accentSec: "",
         border: "",
       },
