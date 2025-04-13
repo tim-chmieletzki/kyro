@@ -10,7 +10,7 @@ const config: Config = {
     screens: {
       sm: "375px", // 375 x 629 M
       md: "768px", // 768 x 956 T
-      lg: "1200px", // 1200 x 900 D
+      lg: "1200px", // 1200 x 800 D
     },
     extend: {
       colors: {
