@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Nexus",
+  title: "KYRO",
   description: "Connecting you to the pulse of the crypto market",
 };
 
