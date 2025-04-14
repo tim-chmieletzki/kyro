@@ -1,12 +1,7 @@
 import "./global.css";
 import type { Metadata } from "next";
 import { twMerge } from "tailwind-merge";
-import { Inter } from "next/font/google";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
+import { GeistSans } from "geist/font/sans";
 
 export const metadata: Metadata = {
   title: "KYRO",
@@ -22,7 +17,7 @@ export default function RootLayout({
     <html lang="de">
       <body
         className={twMerge(
-          inter.variable,
+          GeistSans.className,
           "bg-background text-textPrim antialiased"
         )}
       >
