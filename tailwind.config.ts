@@ -23,7 +23,7 @@ const config: Config = {
         border: "",
       },
       fontFamily: {
-        inter: "var(--font-inter)",
+        archivo: "var(--font-archivo)",
       },
     },
   },
