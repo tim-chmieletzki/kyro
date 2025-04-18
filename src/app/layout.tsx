@@ -1,11 +1,11 @@
 import "./global.css";
 import type { Metadata } from "next";
 import { twMerge } from "tailwind-merge";
-import { Archivo } from "next/font/google";
+import { Inter } from "next/font/google";
 
-const archivo = Archivo({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-archivo",
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="de">
       <body
         className={twMerge(
-          archivo.variable,
+          inter.variable,
           "bg-background text-textPrim antialiased"
         )}
       >

@@ -8,9 +8,10 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      sm: "375px", // 375 x 629 M
-      md: "768px", // 768 x 956 T
-      lg: "1200px", // 1200 x 800 D
+      sm: "375px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1440px",
     },
     extend: {
       colors: {
@@ -23,7 +24,7 @@ const config: Config = {
         border: "",
       },
       fontFamily: {
-        archivo: "var(--font-archivo)",
+        inter: "var(--font-inter)",
       },
     },
   },
