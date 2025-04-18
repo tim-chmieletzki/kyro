@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="text-3xl">
+    <header className="font-archivo">
       <span>KYRO</span>
     </header>
   );
